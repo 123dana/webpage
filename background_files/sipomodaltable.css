@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  @media only screen and (max-width: 600px) {
+
+    .modal_sipo {
+        position: fixed;
+        top: 0px!important;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        text-align: center;
+        margin: auto;
+        z-index: 95955559;
+        width: 100% !important;
+        height: 99% !important;
+    }
+    .close_sipo{
+        right: 0!important;
+    }
+
+    .modal-content_sipo{
+        height: 89vh !important;
+    }
+    
+}
+.modal_sipo {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    text-align: center;
+    margin: auto;
+    z-index: 95955559;
+    width: 80%;
+    height: 95%;
+}
+
+.modal-content_sipo {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 100%;
+    height: 85vh;
+}
+
+.close_sipo {
+    background-color: #0000008c;
+    color: #fefefe;
+    float: right;
+    font-size: 13px;
+    position: absolute;
+    right: -58px;
+    top: 0px;
+    padding: 5px;
+    z-index: auto;
+    line-height: 16px;
+    border-radius: 0px
+}
+
+.close_sipo:hover,
+.close_sipo:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn_sipo {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    font-size: 15px;
+    border: px solid #888;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+._sipoX_1backdrop {
+    background-color: #00000024;
+    height: 100vh;
+    width: 140%;
+    left: -15%;
+    top: -30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.sipoX_credits {
+    background-color: #000000bd;
+    position: fixed;
+    bottom: 8px;
+    left: 50%;
+    z-index: 999999 !important;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    transform: translateX(-50%);
+}
+

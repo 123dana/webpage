@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.curryleaf.nz/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./backgnd_files/style.css">
+    <link rel="stylesheet" href="./backgnd_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./backgnd_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./backgnd_files/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./backgnd_files/aos.css">
+    <link href="./backgnd_files/css2" rel="stylesheet">
+    <title>Curry Leaf</title>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <style>
+        .orderbutton {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
+    <div class="main-cont">
+        <div class="floating-call-button">
+            <a href="tel:04-478 3134">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="top-cont">
+            <header>
+                <div class="container">
+                    <div class="head-contact">
+                        <a href="mailto:curryleafwellington@gmail.com">
+                            <i class="fa fa-envelope colorgreen" aria-hidden="true"></i>
+                            <span>info.curryleafwellington@gmail.com</span>
+                        </a>
+                        <a href="tel:04-478 3134">
+                            <i class="fa fa-phone colorgreen" aria-hidden="true"></i>
+                            <span>04-478 3134</span>
+                        </a>
+                    </div>
+                    <div class="head-menu">
+                        <div class="logo flt-lft">
+                            <a href="https://www.curryleaf.nz/index.html">
+                                <img class="" src="./backgnd_files/Curry-Leaf-logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="menu flt-lft txt-rt">
+                            <a href="https://www.curryleaf.nz/index.html">Home</a>
+                            <a href="https://www.curryleaf.nz/aboutus.html">About us</a>
+                            <a href="https://www.curryleaf.nz/menu.html">Menu</a>
+                            <a href="https://www.curryleaf.nz/gallery.html">Gallery</a>
+                            <a href="https://www.curryleaf.nz/contactus.html">Contact us</a>
+                            
+                                
+                                
+                    <div class="colorgreen" onclick="getResid(&#39;4662384&#39;)"> BOOK TABLE </div>
+                        </div>
+                        <a href="javascript:void(0);" class="icon menuicon">
+                            <i onclick="myFunction()" class="fa fa-bars"></i>
+                        </a>
+                        <div id="myLinks">
+                            <a href="https://www.curryleaf.nz/index.html">Home</a>
+                            <a href="https://www.curryleaf.nz/aboutus.html">About us</a>
+                            <a href="https://www.curryleaf.nz/menu.html">Menu</a>
+                            <a href="https://www.curryleaf.nz/gallery.html">Gallery</a>
+                            <a href="https://www.curryleaf.nz/contactus.html">Contact us</a>
+                            
+                                
+                                <div class="colorgreen" onclick="getResid(&#39;4662384&#39;)"> BOOK TABLE </div>
+                        </div>
+
+                        <div class="modal fade popupform" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="./backgnd_files/Curry-Leaf-logo.png" alt="">
+                                        <h4 class="modal-title">Book Your Table</h4>
+                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="https://www.curryleaf.nz/formsubmit.php" method="post" onsubmit="return val();">
+                                            <div class="form-group width45 flt-lft" style="width: 47.5% !important; padding-right: 0;">
+                                                <input name="cname" id="cname" type="text" class="text_box1 form-control" placeholder="Enter your Name" required=""></div>
+                                            <div class="form-group width45 marginlft5 flt-lft" id="phonenum" style="width: 47.5% !important;"><input name="email" id="email" type="text" class="text_box1 form-control" placeholder="Enter your mail id" required=""></div>
+                                            <div class="form-group width45 flt-lft" style="width: 47.5% !important; padding-right: 0;"><input name="phone" id="phone" type="text" class="text_box1 form-control" placeholder="Phone Number" required=""></div>
+                                            <div class="form-group width45 marginlft5 flt-lft" id="phonenum" style="width: 47.5% !important;"><select class="form-control" id="personcount" name="personcount">
+                                                    <option value="1">1 person</option>
+                                                    <option value="2">2 person</option>
+                                                    <option value="3">3 person</option>
+                                                    <option value="4">4 person</option>
+                                                    <option value="5+">5+ person</option>
+                                                </select></div>
+                                            <div class="form-group flt-lft" style="width: 47.5% !important; padding-right: 0;">
+                                                <input name="pdate" id="pdate" type="date" class="text_box1 form-control" placeholder="Date" required="">
+                                            </div>
+                                            <div class="form-group width45 marginlft5 flt-lft" id="timenum" style="width: 47.5% !important;"><input name="ptime" id="ptime" type="time" class="text_box1 form-control" placeholder="Time" required=""></div>
+                                            <div class="form-group"><textarea name="message" id="message" cols="" rows="" class="text_box2 form-control" placeholder="Message"></textarea>
+                                            </div>
+                                            <input type="text" name="spm" style="display:none;">
+                                            <div class="form-group txt-rt">
+                                                <input name="" type="reset" class="clear fontfam resetbutton" value="Reset">
+                                                <input name="submit" type="submit" class="send fontfam spclbutton" value="Submit">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container clear-both">
+                <div class="slider">
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+                        <div class="swiper-wrapper" style="transition: all 0ms ease 0s;">
+                            <div class="swiper-slide" style="width: 777px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">Its a Food Adventure</span>
+                                    </div>
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./backgnd_files/SOUTH.png" alt="" class="aos-init aos-animate">
+                                    <a data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate"></a><br>
+                                        <button class=""></button>
+                                        <a class="orderbutton" href="https://onlineorder.sipocloudpos.com/2572692"> ORDER ONLINE</a><br>
+                                        <div class="orderbutton" onclick="getResid(&#39;4662384&#39;)"> BOOK A TABLE </div>
+                                        
+                                        
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" style="width: 777px; opacity: 0; transform: translate3d(-777px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">Its a Food Adventure</span>
+                                    </div>
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./backgnd_files/curry.png" alt="" class="aos-init aos-animate">
+                                    <a data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate"></a><br>
+                                    <button class=""></button>
+                                     <a class="orderbutton" href="https://onlineorder.sipocloudpos.com/2572692"> ORDER ONLINE</a><br>
+                                    <div class="orderbutton" onclick="getResid(&#39;4662384&#39;)"> BOOK A TABLE </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" style="width: 777px; opacity: 1; transform: translate3d(-1554px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">Its a Food Adventure</span>
+                                    </div>
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="./backgnd_files/Tikka.png" alt="" class="aos-init aos-animate">
+                                    <a data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate"></a><br>
+                                    <button class=""></button>
+                                     <a class="orderbutton" href="https://onlineorder.sipocloudpos.com/2572692"> ORDER ONLINE</a><br>
+                                    <div class="orderbutton" onclick="getResid(&#39;4662384&#39;)"> BOOK A TABLE </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button" aria-label="Next slide" aria-disabled="true"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="false"></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div data-aos="fade-up" data-aos-duration="1000" class="storybox row aos-init">
+                <div class="col lft">
+                    <h3>Story Of Us</h3>
+                    <p>India is a land of many colors and flavors, and South Indian cuisine is the term used to
+                        collectively refer to flavors from Tamil Nadu, Andhra Pradesh, Kerala and Karnataka. What makes
+                        South Indian food so distinct from the other Indian cuisines is its use of coconut,lentils and
+                        local vegetables like tamarind, snake gourd,plantain and ginger. Also you will notice the
+                        refreshing freshness, and lightness of the food – nourish yourself with fresh, wholesome food
+                        that isn’t too heavy on the stomach.</p>
+                    <div class="spclbutton" onclick="getResid(&#39;4662384&#39;)"> BOOK TABLE </div>
+                    
+                </div>
+                <div class="col rt">
+
+                </div>
+            </div>
+            <div class="our-menu commonpad txt-ctr">
+                <h3>Our Delicious Menu</h3>
+                <div class="cont">
+                    <div class="row">
+                        <div onclick="location.href=&#39;https://juvia.co.nz/vendors/vendormenu/27&#39;;" class="col aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="card">
+                                <img class="card-img-top" src="./backgnd_files/g1-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dine in Menu</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="location.href=&#39;https://juvia.co.nz/vendors/vendormenu/27&#39;;" class="col aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="card">
+                                <img class="card-img-top" src="./backgnd_files/g2-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Takeaway Menu</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="location.href=&#39;https://juvia.co.nz/vendors/vendormenu/27&#39;;" class="col aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="card">
+                                <img class="card-img-top" src="./backgnd_files/g3-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Online Order</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="txt-ctr viewmorebut">
+                    
+                        <div class="spclbutton"> ORDER ONLINE NOW </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-cont txt-ctr pos-rel">
+            <div class="overlay pos-abs"></div>
+            <div class="pad-40">
+
+                <div class="slider">
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+                        <h3>Updates </h3>
+                        <div class="swiper-wrapper" style="transition: all 0ms ease 0s;">
+                            <div class="swiper-slide" style="width: 700px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init">Great News</span>
+                                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">We are going to be Licenced Bar &amp; BYO
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" style="width: 700px; opacity: 0; transform: translate3d(-700px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init">Drinks Menu Updating</span>
+                                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">We are coming up with new beverages menu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" style="width: 700px; opacity: 1; transform: translate3d(-1400px, 0px, 0px); transition: all 0ms ease 0s;">
+                                <div class="slider-content">
+                                    
+                                    <div class="text">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="aos-init">Liquor Licence done!!</span>
+                                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">We are going to be fully Licenced Bar &amp; BYO
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button" aria-label="Next slide" aria-disabled="true"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="false"></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="container gallery-cont commonpad">
+            <h3>Our Gallery</h3>
+            <div class="row">
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g4-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g5-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g6-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g7-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g8-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g9-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g3-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="card">
+                        <img class="card-img-top" src="./backgnd_files/g2-01.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-cont pos-rel">
+            <div class="service-content">
+                <div class="box-cont">
+                    <!-- <div class="overlay pos-abs"></div> -->
+                    <h3 data-aos="fade-up" data-aos-duration="1000" class="aos-init">Wedding and Functions Catering Service</h3>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">We offer a rich catering menu offering a wide range
+                        of Indian cuisine: vegetarian and
+                        non-vegetarian
+                        dishes ranging from the</p>
+                </div>
+            </div>
+        </div>
+        <div class="map-cont">
+            <iframe src="./backgnd_files/embed.html" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="bottom-cont">
+            <footer class="container">
+                <div class="row">
+                    <div class="col">
+                        <div style="padding-bottom: 10px;width: 100%;">
+                            <a href="https://www.curryleaf.nz/index.html">
+                                <img src="./backgnd_files/Curry-Leaf-logo.png" style="width: 100%;" alt="">
+                            </a>
+                        </div>
+                        <span>
+                            128 Johnsonville Road,
+                            Johnsonville, 6037
+                        </span><br>
+                        <a href="tel:04-478 3134">Ph: 04-478 3134</a><br>
+                        <a href="mailto:info.curryleafwellington@gmail.com">Email:info.curryleafwellington@gmail.com</a>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h3>LINKS</h3>
+                            <ul class="links">
+                                <li>
+                                    <a href="https://www.curryleaf.nz/index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.curryleaf.nz/aboutus.html">About us</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.curryleaf.nz/menu.html">Menu</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.curryleaf.nz/gallery.html">Gallery</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h3>BOOK YOUR TABLE</h3>
+                        </div>
+                        <div class="colorgreen" onclick="getResid(&#39;4662384&#39;)"> BOOK TABLE </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h3>OPENING HOURS</h3>
+                        </div>
+                        <ul class="working">
+                            <li>
+                                <h4 class="font-17">Tuesday to Sunday</h4>
+                            </li>
+                            <li class="font-12">Dinner</li>
+                            <li class="font-12">( 4:30 PM – 9:30 PM )</li>
+                            <h4 class="font-17"></h4>
+                            
+                            <li class="font-12"></li>
+                            <!-- <li>
+                                <h4 class="font-17">Sunday</h4>
+                            </li>
+                            <li class="font-12">( 12 PM – 3 PM ) |</li>
+                            <li class="font-12">( 6 PM – 10 PM )</li> -->
+                            <!-- <li>
+                                <h4 class="font-17">Monday: Closed</h4>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <div class="end">
+            <div class="container">
+                <span>Copyright 2020 © Curry leaf - All Rights Reserved</span>
+                <div class="flt-rt social">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./backgnd_files/jquery-3.5.1.slim.min.js.download"></script>
+<script src="./backgnd_files/bootstrap.min.js.download"></script>
+<script src="./backgnd_files/popper.min.js.download"></script>
+<script src="./backgnd_files/swiper-bundle.js.download"></script>
+<script src="./backgnd_files/swiper-bundle.min.js.download"></script>
+<script src="./backgnd_files/aos.js.download"></script>
+
+<script async="">
+    AOS.init();
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        fadeEffect: { crossFade: true },
+        virtualTranslate: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: true,
+        },
+        speed: 2500,
+        slidersPerView: 1,
+        effect: "fade"
+    });
+
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+<div id="myModal_sipo" class="modal_sipo">
+        <span class="close_sipo">Close ×</span>
+        <div class="_sipoX_1backdrop"></div>
+        <script defer="" src="./backgnd_files/modalsipotable.js.download"></script>
+        <link rel="stylesheet" href="./backgnd_files/sipomodaltable.css">
+        <div class="modal-content_sipo">
+            <iframe src="./backgnd_files/2572692.html" width="100%" height="99%" frameborder="0"></iframe>
+        </div>
+        <div class="sipoX_credits">Supported by DDINFOWAYS | www.ddinfoways.co.nz | info@ddinfoways.co.nz</div>
+    </div>
+
+</body>
+</html>

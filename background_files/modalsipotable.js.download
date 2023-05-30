@@ -1,0 +1,24 @@
+    var modal = document.getElementById("myModal_sipo");
+    var btn = document.getElementById("myBtn_sipo");
+    var closebtn = document.getElementsByClassName("close_sipo")[0];
+    var resId = "";
+
+    function getResid(id) {
+        resId = id;
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            // window.open("https://webapp.sipocloudpos.com/"+resId, "_blank");
+            // console.log("hitted");
+            modal.style.display = "block";
+        } else {
+            console.log("else worked");
+            modal.style.display = "block";
+        }
+    }
+    closebtn.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
